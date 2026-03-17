@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.craft.amenitycraft.AmenityCraftDataGenerator"
+		],
+		"client": [
+			"com.craft.amenitycraft.AmenityCraftClient"
 		]
 	},
 	"mixins": [

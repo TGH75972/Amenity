@@ -3,7 +3,7 @@
 	"package": "com.craft.amenitycraft.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"PlayerStepMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
