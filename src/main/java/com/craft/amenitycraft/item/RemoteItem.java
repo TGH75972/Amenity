@@ -23,7 +23,7 @@ ItemStack stack = user.getStackInHand(hand);
 if (user.isSneaking()) {
 if (world.isClient) {
 MinecraftClient.getInstance().setScreen(new RemoteScreen());
-    }
+}
 
 return TypedActionResult.success(stack);
 }
