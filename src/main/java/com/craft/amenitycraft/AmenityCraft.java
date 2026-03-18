@@ -9,8 +9,8 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
 import net.minecraft.util.Identifier;
-import com.mojang.serialization.Codec;public class AmenityCraft implements ModInitializer {
-	
+import com.mojang.serialization.Codec;
+public class AmenityCraft implements ModInitializer {
 public static final String MOD_ID = "amenitycraft";
 public static final ComponentType<String> TARGET_BLOCK = Registry.register(Registries.DATA_COMPONENT_TYPE,Identifier.of(MOD_ID, "target_block"),ComponentType.<String>builder().codec(Codec.STRING).build());
 public static final Block BEAT_BLOCK = new BeatBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK).luminance(s -> s.get(BeatBlock.LIT) ? 15 : 0));
