@@ -6,19 +6,19 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-public class HeadphonesItem extends Item {
-public HeadphonesItem(Settings settings) {
+public class HeadphonesItem extends Item{
+public HeadphonesItem(Settings settings){
 super(settings);
 }
 
 @Override
-public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-if (world.isClient && entity instanceof PlayerEntity player) {
+public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected){
+if (world.isClient && entity instanceof PlayerEntity player){
 ItemStack discStack = player.getInventory().getStack(0);
-if (discStack.contains(DataComponentTypes.JUKEBOX_PLAYABLE)) {
+if (discStack.contains(DataComponentTypes.JUKEBOX_PLAYABLE)){
 boolean isWearing = player.getEquippedStack(EquipmentSlot.HEAD) == stack;
 
-if (isWearing) {
+if (isWearing){
     player.getAbilities().allowFlying = player.getAbilities().allowFlying;
 }
   }

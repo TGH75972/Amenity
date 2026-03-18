@@ -36,7 +36,6 @@ BlockState s = world.getBlockState(t);
 if (filter.equals("minecraft:torch")){
 if (s.isOf(Blocks.TORCH))
 world.setBlockState(t, AmenityCraft.UNLIT_TORCH.getDefaultState());
-
 else if (s.isOf(AmenityCraft.UNLIT_TORCH)) world.setBlockState(t, Blocks.TORCH.getDefaultState());
 
 else if (s.isOf(Blocks.WALL_TORCH)){
