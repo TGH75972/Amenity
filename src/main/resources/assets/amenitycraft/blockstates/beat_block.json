@@ -1,6 +1,10 @@
 {
-"variants": {
-"lit=false": { "model": "amenitycraft:block/beat_block" },
-"lit=true": { "model": "amenitycraft:block/beat_block_lit" }
+"variants":{
+"lit=false":{
+"model": "amenitycraft:block/beat_block"
+},
+"lit=true":{
+"model": "amenitycraft:block/beat_block_lit"
+}
 }
 }

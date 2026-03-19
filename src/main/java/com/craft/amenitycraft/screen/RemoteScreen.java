@@ -8,10 +8,9 @@ public class RemoteScreen extends Screen{
 public RemoteScreen(){
 super(Text.literal("Remote Frequency Settings"));
 }
-
 @Override
 protected void init(){
-String[] opts = {"minecraft:torch", "minecraft:redstone_lamp", "minecraft:candle"};
+String[] opts = {"Lumen Lamp", "Normal Lantern", "Soul Lantern", "Normal Campfire", "Soul Campfire", "Candle"};
 int y = 40;
 for (String opt : opts){
 this.addDrawableChild(ButtonWidget.builder(Text.literal("Target: " + opt), b->{

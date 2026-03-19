@@ -1,6 +1,6 @@
 {
 "parent": "minecraft:block/cube_all",
 "textures":{
-"all": "amenitycraft:block/beat_block"
-}
+"all": "amenitycraft:block/lumen_lamp_on" 
+ }
 }

@@ -1,0 +1,10 @@
+{
+"variants":{
+"lit=true":{
+"model": "amenitycraft:block/lumen_lamp_on"
+},
+"lit=false":{
+"model": "amenitycraft:block/lumen_lamp"
+ }
+}
+}

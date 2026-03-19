@@ -1,6 +1,10 @@
 {
-"item.amenitycraft.sonic_headphones": "Sonic Headphones",
 "item.amenitycraft.lumen_remote": "Lumen Link Remote",
 "block.amenitycraft.beat_block": "Beat Pad",
-"item.amenitycraft.beat_block": "Beat Pad"
+"item.amenitycraft.beat_block": "Beat Pad",
+"block.amenitycraft.lumen_lamp": "Lumen Lamp",
+"item.amenitycraft.lumen_lamp": "Lumen Lamp",
+"block.amenitycraft.turned_off_lantern": "Turned Off Lantern",
+"item.amenitycraft.turned_off_lantern": "Turned Off Lantern",
+"item.amenitycraft.repair_kit": "Repair Kit"
 }

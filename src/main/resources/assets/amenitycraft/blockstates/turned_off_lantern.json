@@ -1,0 +1,10 @@
+{
+"variants":{
+"hanging=false":{
+"model": "amenitycraft:block/turned_off_lantern"
+},
+"hanging=true":{
+"model": "amenitycraft:block/turned_off_lantern_hanging"
+}
+}
+}
