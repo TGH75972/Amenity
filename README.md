@@ -6,4 +6,8 @@
 
 3. A repair kit that will allow you to repair your low durability items by dragging your item and clicking on the repair kit. It will not only repair your damaged item but also apply enchants to it!
 
-4. 
+<img width="1366" height="768" alt="2026-03-19_21 57 22" src="https://github.com/user-attachments/assets/5d4bc845-b287-4c9f-ab20-47271cc4b95c" />
+
+<img width="1366" height="768" alt="2026-03-19_21 53 37" src="https://github.com/user-attachments/assets/281a7e3d-15e6-402b-a1e6-8b178d31cefc" />
+
+
