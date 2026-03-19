@@ -1,4 +1,4 @@
-<b>A Minecraft mod that adds unique amenities to the game, like -
+<b>A Fabric Minecraft 1.21 mod that adds unique amenities to the game, like -
 
 1. A remote control that will allow you to control certain light sources in the game, including a new light source block called the Lumen Lamp. Using the remote, you can press shift+right click to just select the light source you want to turn on/off, and after right clicking once, you will see the magic happen.
 
